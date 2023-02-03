@@ -13,7 +13,7 @@ function Wrapper() {
                 <Sider theme='light'>
                     <LeftMenu />
                 </Sider>
-                <Layout>
+                <Layout className="right-main">
                     <Header>
                         <NavBar />
                     </Header>
