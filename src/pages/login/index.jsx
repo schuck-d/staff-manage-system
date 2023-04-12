@@ -25,7 +25,7 @@ function useLogin() {
             mobile: account,
             password,
         }).then(res => {            
-            if (res.success) {
+            if (res?.success) {
                 localStorage.setItem('token', res.data)
                 navigate('/home');
             }
